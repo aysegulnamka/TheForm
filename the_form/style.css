@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(manz.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.register{
+    width: 450px;
+    height: 550px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+
+.register h1{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    font-size: 36px;
+    color: #fffefe;
+}
+
+.register .input-box{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(224, 185, 247);
+    padding: 15px 35px 15px 15px;
+    margin-top: 3px;
+}
+
+.input-box input::placeholder{
+    color: azure;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.register .btn{
+    width: 150px;
+    height: 35px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
